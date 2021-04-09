@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html class="no-js zh-tw">
+    <head>
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="icon" type="image/png" href="favicon-32x32.png">
+        <title>排程動態優化</title>
+
+        <meta name="description" content="SyGPS 是一套專為企業智能決策打造的系統，結合獨特的人工智能技術、商業知識與軟體開發能力，將龐雜的資料轉換為有效的決策建議，協助管理者精簡決策流程、優化營運策略、有效分配資源、迅速應對挑戰，為企業找出通往成功的最佳路徑。">
+
+     
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="http://www.synergies.com.tw"/>
+        <meta property="og:title" content="供應鏈分析管理 | Synergies"/>
+        <meta property="og:site_name" content="Synergies"/>
+        <meta property="og:image" content="http://www.synergies.ai/images/sis-social-sharing.jpg"/>
+        <meta property="og:description" content="供應鏈分析管理能統合分析供應商、客戶、運輸系統、金融市場、甚至是電力網絡、自然氣象等資訊，精準預測由訂單生成到產品交付的各環節需求，讓您能提前作出最適資源規劃，並在意外發生時迅速找出替代方案，確保品質良好的產品能準時交付到客戶手中。"/>
+        <!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Google Font -->
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+        <!-- build:css css/vendor.css -->
+        <!-- Template CSS Files
+        ================================================== -->
+        <!-- Twitter Bootstrs CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Ionicons Fonts Css -->
+        <link rel="stylesheet" href="css/ionicons.min.css">
+        <!-- animate css -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- Hero area slider css-->
+        <link rel="stylesheet" href="css/slider.css">
+        <!-- owl craousel css -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+        <!-- endbuild -->
+
+        <!-- build:css css/main.css -->
+        <!-- template old main css file -->
+        <!-- template new main css file -->
+        <link rel="stylesheet" href="css/zh-tw/new-main.css">
+        <!-- responsive css -->
+        <link rel="stylesheet" href="css/zh-tw/responsive.css">
+        <!-- endbuild -->
+</head>
+<body>
+        <!--
+        ==================================================
+        Header Section Start
+        ================================================== -->
+        <header id="top-bar" class="navbar-fixed-top animated-header">
+            <div class="container mobile-nav">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <!-- /responsive nav button -->
+                    
+                    <!-- logo -->
+                    <div class="navbar-brand">
+                        <a href="index.html" >
+                             <img class="svg logo-black" src="images/synergieslogo.svg"  width="160px">
+                        </a>
+                    </div>
+                    <!-- /logo -->
+                </div>
+                <!-- main menu -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <div class="main-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                              <a data-is-active="" href="technology.html">技術</a>
+                            </li>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle"    data-toggle="dropdown"
+                                >
+                                  產品
+                                  <span class="caret"></span>
+                                </a>
+                                
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li><a data-is-active=""
+                                          data-is-dropdown-item="" href="newsygps.html">SyGPS&trade; 商業決策導航系統</a></li>
+                                        <li><a data-is-active="" data-is-dropdown-item="" href="ra.html">金融理財機器人</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+>
+                                    解決方案
+                                    <span class="caret"></span>
+                                </a>
+                                <div class="dropdown-menu solution">
+                                    <ul>
+                                        <li>
+                                            <a 
+                                            data-is-active=""
+                                            data-is-dropdown-item=""href="dm.html">
+                                            管理決策大腦
+                                          </a>
+                                        </li>
+                                        <li>
+                                            <a 
+                                            data-is-active=""
+                                            data-is-dropdown-item="" href="newsc.html">
+                                            供應鏈管理大腦
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a data-is-active="" 
+                                            data-is-dropdown-item=""  href="ie.html">
+                                            工業工程大腦
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a data-is-active="" 
+                                            data-is-dropdown-item=""  href="stock.html">
+                                            零售库存分析管理
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+
+>
+
+                                    關於我們
+                                    <span class="caret"></span>
+                                </a>
+                                <div class="dropdown-menu solution">
+                                    <ul>
+                                        <li>
+                                            <a 
+                                            data-is-active=""
+                                            data-is-dropdown-item=""href="team.html">
+                                            企業概要
+                                          </a>
+                                        </li>
+                                        <li>
+                                            <a 
+                                            data-is-active=""
+                                            data-is-dropdown-item="" href="careers.html">
+                                            加入我們
+                                            </a>
+                                        </li>
+                                    <!-- 
+                                        <li><a data-is-active="" 
+                                        data-is-dropdown-item=""
+                                        href="https://www.synergiesai.cn/workshop.html" target="_blank">人工智能工作坊</a></li>
+                                    -->
+                                    </ul>
+                                </div>
+                            </li>
+
+
+
+
+                            <li>
+                              <a data-is-active=""
+                              href="news.html">新聞中心</a>
+                            </li>
+                            
+
+                            <li>
+                              <a data-is-active=""
+                              href="contact.html">聯絡我們</a>
+                            </li>
+
+
+
+                            <!-- 
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="caret"></span></a>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li><a href="blog-fullwidth.html">Blog Full</a></li>
+                                        <li><a href="blog-left-sidebar.html">Blog Left sidebar</a></li>
+                                        <li><a href="blog-right-sidebar.html">Blog Right sidebar</a></li>
+                                    </ul>
+                                </div>
+                            </li> -->
+                        <li class="langSwitch">
+                            <p>繁中&nbsp;|&nbsp;<a href="#" data-lang="zh-cn" class="lang-btn">簡中</a>&nbsp;|&nbsp;<a href="#" data-lang="en-us" class="lang-btn">EN</a></p>
+                        </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- /main nav -->
+            </div>
+        </header>
+
+    <!--
+    ==================================================
+    heroArea
+    ================================================== -->
+    <section class="schedule-hero" style="background-image: url(images&#x2F;schedule&#x2F;schedule-hero.png);">
+      <div class="overlay gradient-right"></div>
+      <div class="container">
+        <div class="row">
+          <div class="hero-title-wrapper">
+            <h1 class="hero-title">排程</h1>
+            <h3 class="hero-subtitle">動態優化<h3>
+          </div>
+          <div class="hero-header-wrapper">
+            <h5 class="hero-header">AI驅動動態優化，即時產出排程計畫</h5>
+            <p class="hero-description">全球第一套使用“AI強化學習模型”驅動的排程系統，能夠持續優化和學習，突破傳統多重限制，動態應變工廠快速變化的環境。並能整合現有ERP和MES系統，快速適應和部署到各種生產環境，提供實時更新且最優化的排程方案</p>
+            <div class="btn-wrapper">
+              <a href="#make-appointment" class="button btn-pink-blue booking-btn">預約 Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/#heroArea-->
+
+    <!--
+    ==================================================
+    Solution 1
+    ================================================== -->
+    <div class="solution-ai">
+      <div class="solution-demo">
+        <div class="solution-data">
+          <h6 class="solution-data-title">長尾品項占比</h6>
+          <h5 class="solution-data-number">1%</h5>
+          <small class="solution-data-description">2019-05-08 更新</small>
+        </div>
+        <div class="solution-data">
+          <h6 class="solution-data-title">滯銷成本</h6>
+          <h5 class="solution-data-number">$78,000</h5>
+          <small class="solution-data-description">佔總體12%</small>
+        </div>
+        <div class="solution-data">
+          <h6 class="solution-data-title">庫存種類</h6>
+          <h5 class="solution-data-number">200</h5>
+          <small class="solution-data-description">2019-05-08 更新</small>
+        </div>
+        <div class="solution-data">
+          <h6 class="solution-data-title">長尾品項數</h6>
+          <h5 class="solution-data-number">20</h5>
+          <small class="solution-data-description">2019-05-08 更新</small>
+        </div>
+      </div>
+      <div class="solution-intro">
+        <h4 class="solution-header">AI 驅動動態排程取代人工經驗決策</h4>
+        <p class="solution-description">數據模擬生產環境，訓練AI在不同的環境下達到最優化排程結果。從單個工序，機台，產線到多廠甚至整個集團，最佳化每個生產作業流程。包括符合交期，平衡資源和訂單需求到企業長期的產能分析與規劃</p>
+        <div class="btn-wrapper">
+          <a href="/contact.html" class="button btn-pink-blue">了解更多</a>
+        </div>
+      </div>
+    </div>
+    <!--/#Solution 1-->
+
+    <!--
+    ==================================================
+    Solution 2
+    ================================================== -->
+    <div class="solution-planning">
+      <img class="solution-planning-decoration" src="../../images/schedule/schedule-solution-2-3.png">
+      <div class="solution-intro">
+        <h4 class="solution-header">智能插單突破多限制規劃</h4>
+        <p class="solution-description">以機械學習生產排程規劃，實時隨著生產環境的變動優化與更新排程，動態調度，能滿足傳統排程手法無法應付現今產業少量多樣以及高變動性的生產需求，節省人工規劃時間。</p>
+        <div class="btn-wrapper">
+          <a href="/contact.html" class="button btn-pink-blue">了解更多</a>
+        </div>
+      </div>
+      <div class="solution-demo">
+        <img class="solution-table" src="../../images/schedule/schedule-solution-2-1.png">
+        <img class="solution-table" src="../../images/schedule/schedule-solution-2-2.png">
+      </div>
+    </div>
+    <!--/#Solution 2-->
+
+    <!--
+    ==================================================
+    Solution 3
+    ================================================== -->
+    <div class="solution-simulation">
+      <div class="solution-demo">
+        <div class="solution-table">
+          <img src="../../images/schedule/schedule-solution-3-1.png">
+          <div class="overlay gradient-right"></div>
+          <div class="overlay gradient-down"></div>
+        </div>
+        <div class="solution-table">
+          <img src="../../images/schedule/schedule-solution-3-2.png">
+          <div class="overlay gradient-right"></div>
+        </div>
+      </div>
+      <div class="solution-intro">
+        <h4 class="solution-header">智能調度 : 多方案排程模擬</h4>
+        <p class="solution-description">使用者可以根據工廠生產狀態與訂單結構不同的情境模輸入KPI參數，模擬多重目標排程方式，在從可視化介面選出最符合當下情境的排程結果做執行。</p>
+        <div class="btn-wrapper">
+          <a href="/contact.html" class="button btn-pink-blue">了解更多</a>
+        </div>
+      </div>
+    </div>
+    <!--/#Solution 3-->
+
+    <!--
+    ==================================================
+    Features
+    ================================================== -->
+    <section class="solution-features">
+      <img class="solution-features-decoration" src=images&#x2F;schedule&#x2F;schedule-feature-bg.png>
+      <img class="solution-features-decoration" src=images&#x2F;schedule&#x2F;schedule-feature-bg-line.png>
+      <div class="container">
+        <h4 class="showcase-header">Synergies 智能排程功能</h4>
+        <div class="showcase-wrapper">
+          <div class="showcase-item">
+            <div class="round-bg"></div>
+            <div class="showcase-icon-container">
+              <img class="showcase-icon" src=images&#x2F;icons&#x2F;ico_scheduleSimulation.png>
+            </div>
+            <h5 class="showcase-title">多方案排程模擬</h5>
+          </div>
+          <div class="showcase-item">
+            <div class="round-bg"></div>
+            <div class="showcase-icon-container">
+              <img class="showcase-icon" src=images&#x2F;icons&#x2F;ico_algorithm.png>
+            </div>
+            <h5 class="showcase-title">智能插單演算</h5>
+          </div>
+          <div class="showcase-item">
+            <div class="round-bg"></div>
+            <div class="showcase-icon-container">
+              <img class="showcase-icon" src=images&#x2F;icons&#x2F;ico_multiFilter.png>
+            </div>
+            <h5 class="showcase-title">多元限制條件設定</h5>
+          </div>
+          <div class="showcase-item">
+            <div class="round-bg"></div>
+            <div class="showcase-icon-container">
+              <img class="showcase-icon" src=images&#x2F;icons&#x2F;ico_calendar.png>
+            </div>
+            <h5 class="showcase-title">動態生產日曆調整</h5>
+          </div>
+          <div class="showcase-item">
+            <div class="round-bg"></div>
+            <div class="showcase-icon-container">
+              <img class="showcase-icon" src=images&#x2F;icons&#x2F;ico_autoDistribution.png>
+            </div>
+            <h5 class="showcase-title">自動資源配置優化</h5>
+          </div>
+          <div class="showcase-item">
+            <div class="round-bg"></div>
+            <div class="showcase-icon-container">
+              <img class="showcase-icon" src=images&#x2F;icons&#x2F;ico_resourceAnalysis.png>
+            </div>
+            <h5 class="showcase-title">動態缺料分析</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/#Features-->
+
+    <!--
+    ==================================================
+    Benefits
+    ================================================== -->
+    <section class="schedule-benefits">
+      <div class="container">
+        <h4 class="showcase-header">Synergies 智能排程效益</h4>
+        <div class="showcase-wrapper">
+          <div class="showcase-item">
+            <div class="round-bg"></div>
+            <img class="showcase-icon" src=images&#x2F;icons&#x2F;ico_scheduleSimulation.png>
+            <h5 class="showcase-title">提升產能</h5>
+          </div>
+          <div class="showcase-item">
+            <div class="round-bg"></div>
+            <img class="showcase-icon" src=images&#x2F;icons&#x2F;ico_scheduleSimulation.png>
+            <h5 class="showcase-title">提升稼動率</h5>
+          </div>
+          <div class="showcase-item">
+            <div class="round-bg"></div>
+            <img class="showcase-icon" src=images&#x2F;icons&#x2F;ico_scheduleSimulation.png>
+            <h5 class="showcase-title">縮短生產週期</h5>
+          </div>
+          <div class="showcase-item">
+            <div class="round-bg"></div>
+            <img class="showcase-icon" src=images&#x2F;icons&#x2F;ico_scheduleSimulation.png>
+            <h5 class="showcase-title">提升訂單交付率</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/#Benefits-->
+
+    <!--
+    ==================================================
+    CustomerCase
+    ================================================== -->
+    <section class="schedule-customer-case customer-case">
+      <div class="container">
+        <h4 class="case-title">客戶案例</h4>
+        <div class="case-image-container">
+          <img class="case-image" src="images/case.png">
+          <h1></h1>
+        </div>
+        <div class="case-intro-container">
+          <h5 class="case-subtitle">如何解鎖人工智能賦予未來工業的價值？ Synergies與全球供應商戰略合作</h5>
+          <p class="case-description">世界排名前三市佔率的工業電腦製造供應商，管理人員平常需要安排SMT與DIP的工單排程,所以需頻繁在不同內部生產系統與產線的大量數據中撈取所需資料，再手動做出每日生產數據報告。但是因為需要考慮的參數很多，單憑管理人員憑藉以往經驗去判斷安排生產排程,往往不但耗費了大量時間還是無法完善周全考慮派工規則達到高效生產排程產能。透過引進SyGPS的排程解決方案後，整合跨部門系統直接即時撈取數據資料,利用人工智能強化學習演算法，能夠多維度分析訂單、備料、產能與換線的各多個生產環境參數，實時動態模擬不同情境下的最佳排程結果，同時透過各種排程解決方案做到更彈性的規劃，生管人員更可以經由SyGPS系統管理多個產線的排程，節省至少80%的作業時間，讓產能利用更佳化，提升8%產能利用率、同時提升5%的交付能力。</p>
+        </div>
+      </div>
+    </section>
+    <!--/#CustomerCase-->
+
+
+    <!--
+    ==================================================
+    Quote
+    ================================================== -->
+    <section class="schedule-quote quote">
+      <div class="overlay"></div>
+      <div class="quote-wrapper">
+        <h2 class="quote-title gradient-white-grey">
+          <span class="quote-action gradient-white-grey">提升</span>
+          <span class="quote-number gradient-white-grey">80</span>
+          <span class="quote-percentage gradient-white-grey">%</span>
+        </h2>
+        <h4 class="quote-subtitle gradient-white-grey">排程&amp;產銷協調的效率</h4>
+      </div>
+      <!-- Calendly inline widget begin -->
+      <div class="calendly-inline-widget" id="make-appointment" data-url="https://calendly.com/synergies-ai/contact-us"></div>
+      <!-- Calendly inline widget end -->
+    </section>
+    <!--/#Quote-->
+
+
+    <footer class="schedule-footer footer">
+      <img class="footer-decoration" src=images&#x2F;schedule&#x2F;footer-bg.png>
+      <div class="footer-container">
+        <div class="footer-company footer-section">
+          <div class="footer-company-logo">
+            <a href=index.html>
+              <img class="horizontal-logo" src='images&#x2F;synergieslogo-horizontal.svg'>
+              <img class="vertical-logo" src='images&#x2F;synergieslogo-vertical.svg'>
+            </a>
+          </div>
+          <div class="footer-company-info">
+            <ul>
+              <li><img src=images&#x2F;icons&#x2F;ico_marker.svg>10049 台北市中正區北平東路40號10樓</li>
+              <li><img src=images&#x2F;icons&#x2F;ico_phone.svg>+886 22391-8885</li>
+              <li><img src=images&#x2F;icons&#x2F;ico_email.svg>contact@sis.ai</li>
+            </ul>
+          </div>
+          <div class="footer-company-weChat">
+            <div class="qrcode">
+              <img src=images&#x2F;footer_weChat.png>
+            </div>
+            <div class="icon">
+              <a class="icon-container" href=http:&#x2F;&#x2F;weixin.qq.com&#x2F;r&#x2F;Zi2xqb7E8uONrfrK93h0><img src=images&#x2F;icons&#x2F;ico_weChat.svg></a>
+              <h6 class="icon-description">關注 Synergies 微信公眾號</h6>
+            </div>
+          </div>
+        </div>
+        <div class="footer-nav footer-section">
+          <ul class="products nav-section">
+            <li class="nav-title">產品</li>
+            <li>
+              <a class="nav-link" href=newsygps.html>SyGPS全方位解決方案</a>
+            </li>
+            <li>
+              <a class="nav-link" href=technology.html >我們的技術</a>
+            </li>
+          </ul>
+          <ul class="solutions nav-section">
+            <li class="nav-title">解決方案</li>
+            <li>
+              <a class="nav-link" href=newsc.html>供應鏈分析管理</a>
+            </li>
+            <li>
+              <a class="nav-link" href=stock.html>零售庫存分析管理</a>
+            </li>
+            <li>
+              <a class="nav-link" href=ra.html>理財機器人</a>
+            </li>
+            <li>
+              <a class="nav-link" href=dm.html>經營分析管理</a>
+            </li>
+          </ul>
+          <ul class="other-pages nav-section">
+            <li>
+              <a class="nav-link" href=team.html>企業概要</a>
+            </li>
+            <li>
+              <a class="nav-link" href=careers.html>加入我們</a>
+            </li>
+            <li>
+              <a class="nav-link" href=news.html>新聞中心</a>
+            </li>
+            <li>
+              <a target="_blank" class="nav-link" href=http:&#x2F;&#x2F;aicollege.sis.ai>席思人工智能学院</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-contact footer-section">
+          <h6 class="contact-title">聯絡我們</h6>
+          <form class="contact-form">
+            <input class="contact-form-field" type="text" placeholder="公司名稱" name="company" id="company" required>
+            <input class="contact-form-field" type="text" id="tel" name="tel" placeholder="電話" required>
+            <input class="contact-form-field" type="text" placeholder="聯絡人姓名" name="name" id="name" required>
+            <button type="submit">送出</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <h6>© 2017 - 2020 Synergies Intelligent Systems, Inc. All rights reserved.</h6>
+      </div>
+    </footer>
+
+        <!-- build:js js/vendor.js -->
+        <!-- Template Javascript Files
+        ================================================== -->
+        <!-- modernizr js -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <!-- jquery -->
+        <script src="js/jquery.min.js"></script>
+        <!-- owl carouserl js -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- bootstrap js -->
+
+        <script src="js/bootstrap.min.js"></script>
+        <!-- wow js -->
+        <script src="js/wow.min.js"></script>
+        <!-- slider js -->
+        <script src="js/slider.js"></script>
+        <script src="js/jquery.fancybox.js"></script>
+        <!-- Calendly link widget begin -->
+        <!-- Calendly link widget end -->
+        <!-- endbuild -->
+        <!-- build:js js/main.js -->
+        <script src="js/zh-tw/ga.js"></script>
+        <!-- template main js -->
+        <script src="js/main.js"></script>
+
+        <!-- endbuild -->
+</body>
+</html>

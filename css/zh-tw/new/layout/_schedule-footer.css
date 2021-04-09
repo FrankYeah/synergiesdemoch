@@ -1,0 +1,24 @@
+.schedule-footer {
+  position: relative;
+  min-height: 500px;
+}
+.schedule-footer .container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer-decoration {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer-company {
+  width: 30%;
+}
+.footer-nav {
+  width: 40%;
+}
+.footer-contact {
+  width: 30%;
+}

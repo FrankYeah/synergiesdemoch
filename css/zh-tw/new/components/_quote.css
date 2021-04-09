@@ -1,0 +1,24 @@
+.quote-wrapper {
+  position: relative;
+  top: 150px;
+  left: 329px;
+}
+.quote-wrapper .gradient-white-grey {
+  background: -webkit-linear-gradient(315deg, #fff 0%, #0a0d13 50%, #9EA6B2 100%);
+  background: linear-gradient(135deg, #fff 0%, #0a0d13 50%, #9EA6B2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.quote-title {
+  margin-bottom: 2rem;
+  font-size: 4.0625rem;
+}
+.quote-title .quote-number {
+  font-size: 9.375rem;
+}
+.quote-title .quote-percentage {
+  font-size: 2.8125rem;
+}
+.quote-subtitle {
+  font-size: 2.18725rem;
+}

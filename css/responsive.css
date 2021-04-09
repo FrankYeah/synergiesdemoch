@@ -1,0 +1,573 @@
+/* Responsive styles
+================================================== */
+/* Large Devices, Wide Screens */
+/*@media (max-width:1439px) {
+  #hero-area {
+    height: 800px;
+  }
+}
+*/
+@media (min-width: 1200px) {
+  /*   #hero-area {
+    height: 700px;
+  }
+*/
+  /* Dropdown animation */
+  .navbar-nav .dropdown-menu,
+  .navbar-nav .dropdown.megamenu div.dropdown-menu {
+    background: none;
+    border: 0;
+    box-shadow: none;
+    display: block;
+    opacity: 0;
+    z-index: 1;
+    visibility: hidden;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-transition: visibility 500ms, opacity 500ms, -webkit-transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
+    -moz-transition: visibility 500ms, opacity 500ms, -moz-transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
+    -o-transition: visibility 500ms, opacity 500ms, -o-transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
+    -ms-transition: visibility 500ms, opacity 500ms, -ms-transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
+    transition: visibility 500ms, opacity 500ms, transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
+  }
+  .navbar-nav .dropdown:hover div.dropdown-menu,
+  .navbar-nav .dropdown.megamenu:hover div.dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    color: #777;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+  .navbar-nav .dropdown-backdrop {
+    visibility: hidden;
+  }
+}
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 40px;
+  }
+  .navbar-header .navbar-brand a {
+    padding: 6px 8px;
+  }
+  #hero-area {
+    padding: 140px 0;
+  }
+  #hero-area .btn {
+    margin-top: 8px;
+  }
+  #about {
+    padding: 70px 0;
+  }
+  #about .block {
+    padding: 0;
+  }
+  figure .buttons {
+    left: 16%;
+  }
+  #feature .media {
+    margin: 0px 0px 35px;
+  }
+  #footer .copyright {
+    text-align: center;
+  }
+  #footer .social {
+    text-align: center;
+  }
+  .dropdown-menu > ul > li > a {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding: 15px;
+    color: #333;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .dropdown-menu > ul {
+    list-style: none;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: -5px;
+    background: #fff;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 0.09px rgba(0, 0, 0, 0.15);
+  }
+  .navbar-collapse {
+    background: #333333;
+  }
+  #top-bar .main-menu li > a {
+    color: #fff;
+    padding: 20px;
+    background: transparent;
+  }
+  #top-bar .dropdown-menu > ul {
+    list-style: none;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: -5px;
+    background: #fff;
+    background-color: rgba(0, 0, 0, 0.45);
+    box-shadow: 0 2px 0.09px rgba(0, 0, 0, 0.15);
+  }
+  #top-bar .dropdown-menu > ul > li > a {
+    display: block;
+    font-size: 0.94em;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Desktops */
+@media only screen and (max-width: 1440px) {
+  #hero-area {
+    padding: 22% 0;
+  }
+  #hero-area h1,
+  #productHero h1 {
+    font-size: 3.5em;
+  }
+  #slogan-description .block h2 {
+    font-size: 1.125em;
+  }
+  .title {
+    font-size: 2em;
+  }
+  #feature .section-heading h2 {
+    font-weight: 300;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #hero-area h1,
+  #productHero h1 {
+    font-size: 3.375em;
+  }
+  #slogan-description .block h2 {
+    font-size: 1em;
+  }
+  .title {
+    font-size: 1.625em;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  #hero-area {
+    background: url("https://s3.amazonaws.com/static.synergies.ai/web/images/static_bg_1.jpg") #000 no-repeat top center;
+    background-size: cover;
+  }
+  #bgvid {
+    display: none;
+  }
+  #hero-area h1,
+  #productHero h1 {
+    font-size: 3.275em;
+  }
+  #hero-area h3,
+  #productHero h3 {
+    font-size: 2em;
+  }
+  .global-page-header {
+    padding: 90px 0 0 0;
+  }
+  .global-page-header h2 {
+    font-size: 2em;
+  }
+  .headerbg2,
+  .headerbg3,
+  .headerbg4 {
+    background-position: center;
+  }
+  #slogan-description .block h2 {
+    font-size: 1.15em;
+  }
+  #call-to-action .block h2 {
+    font-size: 1.625em;
+  }
+  #about .scm_flow {
+    padding-left: 1em;
+  }
+  #about .block p {
+    font-size: 0.94em;
+  }
+  #feature {
+    background-size: 155%;
+    background-position: top;
+  }
+  #productHero.sisSCM {
+    background-position: top center;
+    background-size: 100%;
+  }
+  #sis .team-member .featureText {
+    font-size: 0.94em;
+  }
+  #productHero.RA {
+    background-position: top;
+    background-size: 100%;
+  }
+  #productHero.RA h1 {
+    font-size: 2.5em;
+  }
+  #productSIS .sec02,
+  #sis {
+    /*       background-position: center;
+       background-size: cover;
+       height: 100%;
+       width: auto;*/
+    background-image: none;
+    padding: 1em 0;
+  }
+  #productRA .sec02,
+  #features,
+  #productRA {
+    /*        background-position: center center;
+        background-size: cover;
+        height: 100%;
+        width: auto;*/
+    padding: 1em, 0;
+    background-image: none;
+  }
+  #productSIS .sec02 img {
+    margin-top: -80px;
+    margin-bottom: 30px;
+    width: 80%;
+    padding-left: 20%;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .navbar-header .navbar-brand a {
+    padding: 0 15px;
+  }
+  #hero-area h1,
+  #productHero h1 {
+    font-size: 3.25em;
+  }
+  #hero-area h3,
+  #productHero h3 {
+    font-size: 1.875em;
+  }
+  #slogan-description .block h2 {
+    font-size: 1em;
+  }
+  .title {
+    font-size: 1.625em;
+  }
+  #feature img {
+    width: 100%;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  p {
+    font-size: 0.875em;
+    font-weight: 300;
+  }
+  #hero-area {
+    background: url("https://s3.amazonaws.com/static.synergies.ai/web/images/mobile_bg.jpg") #000 no-repeat top center;
+    padding: 60% 0;
+    background-size: 100%;
+    /*        background-position: center center;*/
+  }
+  #productHero {
+    padding: 40% 0;
+  }
+  #hero-area h1,
+  #productHero h1 {
+    font-size: 2em;
+  }
+  #hero-area h3,
+  #productHero h3 {
+    font-size: 1.35em;
+    letter-spacing: 1.6px;
+  }
+  #slogan-description {
+    padding: 1.4em 0 1em 0;
+  }
+  #slogan-description .block h2 {
+    font-size: 0.925em;
+    margin: 0;
+  }
+  .title {
+    font-size: 1.5em;
+  }
+  #feature {
+    padding: 30px 0;
+    background-image: url(https://s3.amazonaws.com/static.synergies.ai/web/images/network_bg_mobile.jpg);
+    background-size: 100%;
+    background-position: top center;
+  }
+  #feature .section-heading .col-md-12,
+  #feature .section-heading .col-sm-12 {
+    padding: 0;
+  }
+  #feature .bigPic {
+    width: 100%;
+  }
+  #feature .section-heading h2 {
+    font-size: 1em;
+  }
+  #productIntro .sisIntro .btn-more,
+  #slogan-description .btn-more,
+  #call-to-action .btn-contact {
+    padding: 10px 30px;
+    font-size: 0.875em;
+  }
+  .works {
+    padding: 2em 0;
+  }
+  #works .section-heading .block {
+    width: 100%;
+    margin: 15px auto;
+  }
+  #works .section-heading .team-member p {
+    padding: 0;
+  }
+  #works .team-member h3 {
+    font-size: 1.215em;
+  }
+  #productIntro .block {
+    padding: 0 15px;
+  }
+  #productIntro .block h2 {
+    font-size: 1.375em;
+  }
+  #productIntro .block p {
+    font-size: 0.875em;
+  }
+  #call-to-action {
+    padding: 2em 0 2.375em 0;
+  }
+  #call-to-action .block h2 {
+    font-size: 1.215em;
+    letter-spacing: 2px;
+  }
+  #footer .links {
+    float: left;
+    text-align: left;
+    width: 100%;
+  }
+  #footer .nav.navbar-nav {
+    left: 0;
+    float: left;
+    text-align: left;
+    width: 100%;
+  }
+  #footer ul {
+    background-color: #000;
+  }
+  /* Our Tech */
+  .global-page-header {
+    padding: 80px 0 0 0;
+  }
+  .headerbg2,
+  .headerbg3,
+  .headerbg4 {
+    background-position: top center;
+  }
+  .mobile-only {
+    display: block;
+  }
+  #about .block p {
+    font-size: 0.875em;
+  }
+  #about .fullWidth p {
+    text-align: left;
+  }
+  #about .fullWidthWhite .section-heading {
+    margin-bottom: 2em;
+  }
+  #about .blog-post-image .img-responsive {
+    display: none;
+  }
+  /* SCM */
+  #productHero.sisSCM {
+    background-image: url(https://s3.amazonaws.com/static.synergies.ai/web/images/sis_header_mobile.jpg);
+    background-position: top center;
+    background-size: 100%;
+  }
+  #productHero.sisSCM h1 {
+    font-size: 1.575em;
+  }
+  #productHero.RA h1 {
+    font-size: 1.625em;
+  }
+  #brief .block p {
+    font-size: 0.875em;
+    padding: 2em 0.8em 1em;
+  }
+  #about {
+    padding-top: 1em;
+  }
+  #about .scm_flow {
+    padding-left: 1em;
+  }
+  #productSIS h2 {
+    font-size: 1.375em;
+  }
+  #productSIS .sec02,
+  #sis {
+    /*      background-position: center;
+      background-size: cover;
+      height: 100%;
+      width: auto;*/
+    background-image: none;
+    padding: 1em 0;
+  }
+  #productSIS .sec02 img {
+    margin-top: -50px;
+    margin-bottom: 20px;
+  }
+  #productRA .block,
+  #productSIS .block {
+    padding: 1em;
+  }
+  #productSIS .sec02 .block {
+    padding: 1em;
+  }
+  #productRA h2,
+  #productSIS h2 {
+    margin-top: 0.5em;
+  }
+  #productRA p,
+  #productSIS p {
+    font-size: 0.875em;
+    margin-bottom: 1em;
+    line-height: 1.8;
+  }
+  #sis .team-member .featureText {
+    padding: 0;
+    font-size: 0.875em;
+  }
+  #sis .team-member p {
+    font-size: 0.875em;
+  }
+  /* RA */
+  #productHero {
+    height: 350px;
+  }
+  #productHero.RA {
+    background-image: url(https://s3.amazonaws.com/static.synergies.ai/web/images/ra_header_mobile.jpg);
+    background-position: top center;
+    background-size: 100%;
+  }
+  #productRA .section-heading {
+    margin-bottom: 1em;
+  }
+  #productRA .sec01 .block {
+    padding: 1em;
+  }
+  #productRA .sec02 img {
+    margin: -1em;
+    width: 110%;
+    max-width: 110%;
+  }
+  #features .block {
+    padding: 0;
+  }
+  #features .team-member .featureText {
+    font-size: 0.875em;
+  }
+  #productRA .sec02,
+  #features,
+  #productRA {
+    /*      background-position: bottom;
+      background-size: cover;
+      height: 100%;
+      width: auto;*/
+    padding: 1em, 0;
+    background-image: none;
+  }
+  /* team */
+  #team {
+    /*      background-position: top right;
+      height: 100%;
+      width: auto;
+      background-size: cover;*/
+    background-image: none;
+    padding: 2em 0;
+  }
+  #team .team-member h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+  #team .team-member .team_designation {
+    font-size: 1.375em;
+    letter-spacing: 2px;
+  }
+  #team .team-member p {
+    font-size: 0.93em;
+  }
+  #team .partner {
+    padding: 0 4em;
+  }
+  /* contact-us */
+  #contact-section .address h4 {
+    font-size: 1.125em;
+  }
+  #contact-section .address h5 {
+    font-size: 0.875em;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  #hero-area h1,
+  #productHero h1 {
+    font-size: 1.625em;
+  }
+  #hero-area h3,
+  #productHero h3 {
+    font-size: 1.15em;
+    letter-spacing: 1.5px;
+  }
+  #feature {
+    padding: 20px 0;
+  }
+  #productRA .block,
+  #productSIS .block {
+    padding: 0.5em;
+  }
+}

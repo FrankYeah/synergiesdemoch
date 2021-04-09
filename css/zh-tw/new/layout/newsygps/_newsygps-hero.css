@@ -1,0 +1,44 @@
+.newsygps-hero {
+  width: 10%;
+}
+.newsygps-hero .gradient-right {
+  background: -webkit-linear-gradient(270.01deg, rgba(255, 255, 255, 0) 60%, rgba(20, 53, 106, 0.57) 75.28%, #14274E 90.87%, #14274E 95.08%, #14274D 87.93%);
+  background: linear-gradient(179.99deg, rgba(255, 255, 255, 0) 60%, rgba(20, 53, 106, 0.57) 75.28%, #14274E 90.87%, #14274E 95.08%, #14274D 87.93%);
+}
+.newsygps-hero .container {
+  position: relative;
+  width: 80%;
+  height: 100%;
+}
+.newsygps-hero .row {
+  width: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.hero-header-wrapper {
+  width: 50%;
+}
+.hero-title-wrapper {
+  width: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.hero-title {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  /*check browser compatibility*/
+}

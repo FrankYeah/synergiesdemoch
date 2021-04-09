@@ -1,0 +1,44 @@
+@media screen and (max-device-width: 1024px) {
+  .headerbg2,
+  .headerbg3,
+  .headerbg4,
+  .about-hero,
+  .solution-hero,
+  .sygps-hero,
+  #productHero,
+  #feature,
+  #productIntro .sisIntro,
+  #productIntro .raIntro,
+  #hero-area,
+  video,
+  #team.intro {
+    background-attachment: scroll;
+  }
+  .about-hero {
+    background-position: center 30%;
+  }
+}
+@media screen and (max-device-width: 1024px) {
+  #hero-area {
+    background-image: url('https://s3.amazonaws.com/static.synergies.ai/web/images/static_bg_2.jpg');
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  #bgvid {
+    display: none;
+  }
+}
+@media screen and (max-device-width: 480px) {
+  #hero-area {
+    background-image: url("https://s3.amazonaws.com/static.synergies.ai/web/images/mobile_bg.jpg");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  #bgvid {
+    display: none;
+  }
+}
